@@ -3,7 +3,6 @@ package files;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import obtenerMedias.ObtenerMedias;
 
@@ -25,6 +24,7 @@ public class FicheroWriter {
 		
 		ObtenerMedias om = new ObtenerMedias();
         double[] medias = om.mediasAsignatura(alumnado);
+        
 		
         String[] asignaturas = {"Lenguaje", "Matematicas", "Naturales", "Sociales", "Ingles"};
         

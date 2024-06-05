@@ -36,7 +36,6 @@ public class FicheroReader {
 		            
 		            Alumnado alumno = new Alumnado(nombre);
 		            alumno.setNotas(notas);
-		            alumno.fusionarNotaConCodigo(notas);
 		            alumnos.add(alumno);
 				
 					

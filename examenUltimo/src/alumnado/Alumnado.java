@@ -18,7 +18,8 @@ public class Alumnado {
 		super();
 		this.nombre = nombre;
 		this.notas = new int[5];
-		this.asignaturas = new HashMap<String, Integer>();;
+		this.asignaturas = new HashMap<String, Integer>();
+		fusionarNotaConCodigo();
 	}
 	public String getNombre() {
 		return nombre;
@@ -40,7 +41,7 @@ public class Alumnado {
 	}
 	
 	
-	public void fusionarNotaConCodigo (int[] notas) {
+	public void fusionarNotaConCodigo () {
 		
 		for(int i=0;i<5;i++) {
 			
